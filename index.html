@@ -1,42 +1,89 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-	<title>harmantom.com now lives on Github</title>
-	<style type="text/css">
+	<head>
+		<meta charset="utf-8">
+		<title>Tom Harman — Product Design Manager at BuzzFeed — Based in Brooklyn</title>
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic' rel='stylesheet' type='text/css'>
+		<style type="text/css">
 
-	/* http://meyerweb.com/eric/tools/css/reset/     v2.0 | 20110126    License: none (public domain) */  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { 	margin: 0; 	padding: 0; 	border: 0; 	font-size: 100%; 	font: inherit; 	vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section { 	display: block; } body { 	line-height: 1; } ol, ul { 	list-style: none; } blockquote, q { 	quotes: none; } blockquote:before, blockquote:after, q:before, q:after { 	content: ''; 	content: none; } table { 	border-collapse: collapse; 	border-spacing: 0; }
+		/* http://meyerweb.com/eric/tools/css/reset/     v2.0 | 20110126    License: none (public domain) */  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { 	margin: 0; 	padding: 0; 	border: 0; 	font-size: 100%; 	font: inherit; 	vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section { 	display: block; } body { 	line-height: 1; } ol, ul { 	list-style: none; } blockquote, q { 	quotes: none; } blockquote:before, blockquote:after, q:before, q:after { 	content: ''; 	content: none; } table { 	border-collapse: collapse; 	border-spacing: 0; }
 
-	body{
-		font-family: sans-serif;
-		color: #555;
-		line-height: 1.5;
-		padding: 2em 2em 3em 2.2em;
-		margin: 0 auto;
-		font-size: 1.35em;
-	}
-	a {
-		color: #555;
-		text-decoration: none;
-		border-bottom: 3px solid #ddd;
-		transition: .3s;
-		line-height: .7;
-	}
-	a:hover {
-		color: #000;
-		border-bottom: 3px solid #d33;
-	}
-	h1 {
-		font-weight: bold;
-	}
-	p.meta, p.meta a {
-		color: #ddd;
-	}
-	</style>
-</head>
-<body>
-<h1>BRB</h1>
-<p>Meanwhile, I'm online at <a href="https://www.linkedin.com/in/tomharman">LinkedIn</a>, <a href="http://twitter.com/tomharman">Twitter</a> and <a href="http://instagram.com/tomharman">Instagram</a>.</p>
-<p class="meta">Previously, on this website: <a href="http://harmantom.com/webarchive/v2/">V2</a> &amp; <a href="http://harmantom.com/webarchive/v1/">V1</a></p>
-</body>
+			body {
+				font-family: "Playfair Display", serif;
+				color: #333;
+				padding: 1.5em;
+				line-height: 1.5;
+				margin: 0 auto;
+		        font-size: 1.4em;
+			}
+			p { 
+				margin: 1em 0;
+			}
+			a { color: #333;
+				text-decoration: none;
+				font-style: italic;
+				border-bottom: 3px solid #eee;
+				transition: .3s;
+				line-height: .7;
+			}
+			a:hover {
+				color: #000;
+				border-bottom: 3px solid #FDBB1E;
+			}
+			h1 {
+				font-style: italic;
+				font-size: 1.25em;
+				border-bottom: 3px solid #FDBB1E;
+				display: inline;
+			}
+			em {
+				color: #aaa;
+			}
+			.previously, .previously a {
+				color: #ccc;
+			}
+
+			/* Tablets */
+			@media only screen and (min-width: 500px) {
+				body {
+		   			font-size: 2.2em;
+		        }
+		        a { 
+		        	border-bottom: 4px solid #eee;
+		        }
+		        a:hover {
+					border-bottom: 4px solid #FDBB1E;
+				}
+				h1 {
+					border-bottom: 4px solid #FDBB1E;
+				}
+		    }
+		    /* Big Screens */
+		    @media only screen and (min-width: 1024px) {
+			    body {
+			        font-size: 2.7em;
+			        max-width: 1024px;
+			    }
+			    a { 
+			    	border-bottom: 5px solid #eee;
+			    }
+			    a:hover {
+					border-bottom: 5px solid #FDBB1E;
+				}
+				h1 {
+					border-bottom: 5px solid #FDBB1E;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Hello, I’m Tom.<br /> A designer based in Brooklyn.</h1>
+		<p>Like most designers, I’m curious about human behavior and strive to make everyday interactions just a little bit better — like a nice cup of tea. I’m drawn to systemic product challenges and growing human-centered teams to tackle them.</p>
+		<p>I’m currently a Product Design Manager at <a href="http://buzzfeed.com/">BuzzFeed</a> where I focus on people, process and practice. I also mentor at <a href="http://30weeks.com">30 Weeks</a>, advise at <a href="http://orbital.nyc">Orbital Product Sessions</a> and critique at <a href="http://interactiondesign.sva.edu">SVA IxD</a>.</p>
+		<p>My career began in 2005, after transitioning from playing in <a href="https://www.youtube.com/watch?v=eHuUn4zAdB0">bands</a>. Six years later I undertook an <a href="http://interactiondesign.sva.edu">MFA in Interaction Design</a> where my thesis explored how personal data could lead to more meaningful physical possessions. I’ve held shiny job titles like <a href="http://mintdigital.com">Design Director</a> and <a href="http://coastermatic.com/pages/about-us">Co-Founder</a> and worked on projects with <a href="http://maps.google.com/">Google Maps</a>, <a href="http://nytimes.com/">NY Times</a> and <a href="http://smartdesignworldwide.com/">Smart Design</a> among others in NYC and London — a longer list lives <a href="https://www.linkedin.com/in/tomharman">here</a>. I’ve also <a href="https://www.youtube.com/watch?v=uyc7BUHJMkg">spoken</a> in-front of <a href="https://vimeo.com/72206869#t=10m8s">crowds</a> and on <a href="http://5by5.tv/bigwebshow/92">podcasts</a>.</p>
+		<p>I enjoy conversations about <a href="https://en.wikipedia.org/wiki/DIY_ethic#Music">music</a>, <a href="https://en.wikipedia.org/wiki/Cybernetics">cybernetics</a> and <a href="http://giphy.com/search/cats">cats gifs</a> but I’m bad at email so <a href="http://twitter.com/tomharman">tweeting</a> is the best way to say hi. I can also be found online at <a href="https://open.spotify.com/user/tomharman">Spotify</a>, <a href="https://foursquare.com/tomharman">Foursquare</a>, <a href="http://instagram.com/tomharman">Instagram</a>, <a href="http://medium.com/@tomharman">Medium</a> and <a href="http://vimeo.com/tomharman">Vimeo</a>.</p>
+		<p>Thanks for stopping by, have wonderful day.</p>
+		<p>👋🌞👌</p>
+		<p class="previously">Last updated: June 2016. <br />Previous versions of this site live <a href="http://harmantom.com/webarchive/v2/">here</a> &amp; <a href="http://harmantom.com/webarchive/v1/">here</a>.</p>
+	</body>
 </html>
