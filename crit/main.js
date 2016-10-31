@@ -7,7 +7,10 @@ var designers = ['Cait','Allison','Elaine','Lindsey','Jac','Wolasi','Emily','Nic
 var skipWeeks = ['Dec 27, 2016']; // e.g. Thanksgiving, holidays etc
 var override = [
 	['Nov 1, 2016', 'Wolasi', 'Remove'],
-	['Nov 8, 2016', 'Wolasi', 'Remove'],
+	['Nov 1, 2016', 'Allison', 'Remove'],
+	['Nov 1, 2016', 'Cait', 'Remove'],
+	['Nov 8, 2016', 'Cait', 'Add'],
+	['Nov 8, 2016', 'Allison', 'Add'],
 	['Nov 15, 2016', 'Wolasi', 'Remove'],
 	['Nov 22, 2016', 'Wolasi', 'Remove']
 ]; // If a designer needs to be removed or added to the rotation use 'Remove' or 'Add' and the date
