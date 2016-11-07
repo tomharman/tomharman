@@ -11,6 +11,7 @@ var override = [
 	['Nov 1, 2016', 'Cait', 'Remove'],
 	['Nov 8, 2016', 'Cait', 'Add'],
 	['Nov 8, 2016', 'Allison', 'Add'],
+	['Nov 8, 2016', 'Sabrina', 'Add'],
 	['Nov 15, 2016', 'Wolasi', 'Remove'],
 	['Nov 22, 2016', 'Wolasi', 'Remove']
 ]; // If a designer needs to be removed or added to the rotation use 'Remove' or 'Add' and the date
