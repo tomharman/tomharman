@@ -84,7 +84,7 @@ function thisDesignerCanPresent(currentWeek,override,designerName){
 function isInThePast(currentWeek){
 	var date1 = new Date(currentWeek);
 	var date2 = new Date();
-	if(date2.getTime() - date1.getTime() > 0) {
+	if(date2.getTime() - date1.getTime() >= 0) {
 		return true;
 	} else {
 		return false;
