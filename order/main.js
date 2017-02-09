@@ -21,12 +21,24 @@ function shuffle(array) {
   return array;
 }
 
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max+1);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
 function init() {
-	var html = "<ol>";
 	list = shuffle(names);
 
+  var html = "<ol>";
+  var jokester = getRandomInt(0,4);
+
 	for (var a = 0; a < names.length; a++) {
-		html +=  "<li>" + names[a] + "</li>";
+		html +=  "<li>" + names[a];
+    if(jokester==a){
+      html += "*";
+    }
+    html += "</li>";
 	}
 	html += "</ol>";
 
