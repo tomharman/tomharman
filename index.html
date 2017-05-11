@@ -23,10 +23,6 @@
 				transition: .3s;
 				line-height: .7;
 			}
-			a:hover {
-				color: #000;
-				border-bottom: 1px solid #FDBB1E;
-			}
 	        a { 
 	        	border-bottom: 2px solid #ee3322;
 	        }
@@ -62,48 +58,51 @@
 			}
 
 			article{
-				margin-bottom: 1em;
-			}
-
-			/* Tablets */
-			@media only screen and (min-width: 500px) {
-				body {
-		   			font-size: 2.2em;
-		        }
-		        h1 {
-		        	font-size: 1.5em;
-		        }
-				article {
-					font-size: 50%;
-					
-				}
-				.previously { 
-					font-size: 50%; 
-					padding-top: 3em;
-				}
-			}
-
-		    /* Big Screens */
-		    @media only screen and (min-width: 824px) {
-			    body {
-			        font-size: 3.2em;
-			    }
-			    h1 {
-			    	font-size: 1.4em;
-			    }
-		        article { float: left; width: 20%; font-size: 35%;}
-				article.speaking {width: 40%;}
-				article.writing {width: 35%;}
-				article.contacting {width: 25%;}
-				.previously { font-size: 35%; }
-			}
-			article { 
 				font-weight: normal;
 				line-height: 1.65;
 				margin-bottom: 1em;
 			}
 			
 			div { clear: both; display: block; }
+
+
+			/* Tablets */
+			@media only screen and (min-width: 500px) {
+		        body {
+		        	padding: 2.5em;
+		        }
+		        h1 {
+		        	font-size: 3em;
+		        }
+			}
+
+		    /* Big Screens */
+		    @media only screen and (min-width: 1024px) {
+			    body {
+			        padding: 4em;
+			        max-width: 1150px;
+			    }
+			    h1 {
+			    	font-size: 3.5em;
+			    }
+		        article { float: left; width: 20%; font-size: 1.1em;}
+				article.speaking {width: 35%; padding-right: 5%; }
+				article.writing {width: 30%; padding-right: 5%; }
+				article.contacting {width: 20%;}
+				.previously { padding-top: 2.5em;}
+			}
+
+			@media only screen and (max-device-width: 414px) {
+				body { font-size: 1.5em; }
+				article { margin-bottom: 1.5em; }
+			}
+
+			@media only screen and (max-device-width: 375px) {
+				body { font-size: 1em; }
+				h1 { font-size: 4.5em; }
+				article { margin-bottom: 2.5em; }
+			}
+
 		</style>
 	</head>
 	<body>
