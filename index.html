@@ -2,45 +2,67 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Tom Harman — Product Design Manager at BuzzFeed — Based in Brooklyn</title>
-		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic' rel='stylesheet' type='text/css'>
+		<title>Tom Harman • Design Manager at BuzzFeed • Based in Brooklyn</title>
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,800,900" rel="stylesheet">
 		<style type="text/css">
 
 		/* http://meyerweb.com/eric/tools/css/reset/     v2.0 | 20110126    License: none (public domain) */  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { 	margin: 0; 	padding: 0; 	border: 0; 	font-size: 100%; 	font: inherit; 	vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section { 	display: block; } body { 	line-height: 1; } ol, ul { 	list-style: none; } blockquote, q { 	quotes: none; } blockquote:before, blockquote:after, q:before, q:after { 	content: ''; 	content: none; } table { 	border-collapse: collapse; 	border-spacing: 0; }
 
 			body {
-				font-family: "Playfair Display", serif;
-				color: #333;
+				background: #f4f4f4;
+				font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
+				font-weight: 400;
+				color: #555;
 				padding: 1.5em;
 				line-height: 1.5;
+				letter-spacing: -.33pt;
 				margin: 0 auto;
-		        font-size: 1.4em;
 			}
-			p { 
-				margin: 1em 0;
-			}
-			a { color: #333;
+			a { color: #555;
 				text-decoration: none;
-				font-style: italic;
-				border-bottom: 3px solid #eee;
 				transition: .3s;
 				line-height: .7;
 			}
 			a:hover {
 				color: #000;
-				border-bottom: 3px solid #FDBB1E;
+				border-bottom: 1px solid #FDBB1E;
+			}
+	        a { 
+	        	border-bottom: 2px solid #ee3322;
+	        }
+	        a:hover {
+				border-bottom: 2px solid #FDBB1E;
+			}
+			.previously a:hover {
+				color: #666;
+				border-bottom: 2px solid #FDBB1E;
 			}
 			h1 {
-				font-style: italic;
-				font-size: 1.25em;
-				border-bottom: 3px solid #FDBB1E;
-				display: inline;
+				font-weight: 900;
+				font-size: 2em;
+				line-height: 1.2;
+				display: inline-block;
+				margin: 0 0 1em 0;
+				
+			}
+			h2 {
+				font-weight: 600;
 			}
 			em {
 				color: #aaa;
 			}
 			.previously, .previously a {
 				color: #ccc;
+				border-color: #ccc;
+			}
+			.previously {
+				clear: both;
+				font-weight: normal;
+				padding-top: 1em;
+			}
+
+			article{
+				margin-bottom: 1em;
 			}
 
 			/* Tablets */
@@ -48,42 +70,74 @@
 				body {
 		   			font-size: 2.2em;
 		        }
-		        a { 
-		        	border-bottom: 4px solid #eee;
+		        h1 {
+		        	font-size: 1.5em;
 		        }
-		        a:hover {
-					border-bottom: 4px solid #FDBB1E;
+				article {
+					font-size: 50%;
+					
 				}
-				h1 {
-					border-bottom: 4px solid #FDBB1E;
-				}
-		    }
-		    /* Big Screens */
-		    @media only screen and (min-width: 1024px) {
-			    body {
-			        font-size: 2.7em;
-			        max-width: 1024px;
-			    }
-			    a { 
-			    	border-bottom: 5px solid #eee;
-			    }
-			    a:hover {
-					border-bottom: 5px solid #FDBB1E;
-				}
-				h1 {
-					border-bottom: 5px solid #FDBB1E;
+				.previously { 
+					font-size: 50%; 
+					padding-top: 3em;
 				}
 			}
+
+		    /* Big Screens */
+		    @media only screen and (min-width: 824px) {
+			    body {
+			        font-size: 3.2em;
+			    }
+			    h1 {
+			    	font-size: 1.4em;
+			    }
+		        article { float: left; width: 20%; font-size: 35%;}
+				article.speaking {width: 40%;}
+				article.writing {width: 35%;}
+				article.contacting {width: 25%;}
+				.previously { font-size: 35%; }
+			}
+			article { 
+				font-weight: normal;
+				line-height: 1.65;
+				margin-bottom: 1em;
+			}
+			
+			div { clear: both; display: block; }
 		</style>
 	</head>
 	<body>
-		<h1>Hello, I’m Tom.<br /> A designer based in Brooklyn.</h1>
-		<p>Like most designers, I’m curious about human behavior and strive to make everyday interactions just a little bit better — like a nice cup of tea. I’m drawn to systemic product challenges and growing human-centered teams to tackle them.</p>
-		<p>I’m currently a Product Design Manager at <a href="http://buzzfeed.com/">BuzzFeed</a> where I focus on people, process and practice. I also mentor at <a href="http://30weeks.com">30 Weeks</a>, advise at <a href="http://orbital.nyc">Orbital Product Sessions</a> and critique at <a href="http://interactiondesign.sva.edu">SVA IxD</a>.</p>
-		<p>My career began in 2005, after transitioning from playing in <a href="https://www.youtube.com/watch?v=eHuUn4zAdB0">bands</a>. Six years later I undertook an <a href="http://interactiondesign.sva.edu">MFA in Interaction Design</a> where my thesis explored how personal data could lead to more meaningful physical possessions. I’ve held shiny job titles like <a href="http://mintdigital.com">Design Director</a> and <a href="http://coastermatic.com/pages/about-us">Co-Founder</a> and worked on projects with <a href="http://maps.google.com/">Google Maps</a>, <a href="http://nytimes.com/">NY Times</a> and <a href="http://smartdesignworldwide.com/">Smart Design</a> among others in NYC and London — a longer list lives <a href="https://www.linkedin.com/in/tomharman">here</a>. I’ve also spoken on <a href="http://5by5.tv/bigwebshow/92">podcasts</a> and in-front of people in <a href="https://vimeo.com/72206869#t=10m8s">auditoriums</a> and <a href="https://www.youtube.com/watch?v=uyc7BUHJMkg">bars</a>.</p>
-		<p>I enjoy conversations about <a href="https://en.wikipedia.org/wiki/DIY_ethic#Music">music</a>, <a href="https://en.wikipedia.org/wiki/Cybernetics">cybernetics</a> and <a href="http://giphy.com/search/cats">cats gifs</a> but I’m bad at email so <a href="http://twitter.com/tomharman">tweeting</a> is the best way to say hi. I can also be found online at <a href="https://open.spotify.com/user/tomharman">Spotify</a>, <a href="https://foursquare.com/tomharman">Foursquare</a>, <a href="http://instagram.com/tomharman">Instagram</a>, <a href="http://medium.com/@tomharman">Medium</a> and <a href="http://vimeo.com/tomharman">Vimeo</a>.</p>
-		<p>Thanks for stopping by, have wonderful day.</p>
-		<p>👋🌞👌</p>
-		<p class="previously">Last updated: June 2016. <br />Previous versions of this site live <a href="http://harmantom.com/webarchive/v2/">here</a> &amp; <a href="http://harmantom.com/webarchive/v1/">here</a>.</p>
+		<h1>Hi, I'm Tom, a product designer &amp; people manager passionate about systems &amp; simplicity. <!-- I'm currently at BuzzFeed in NYC where I lead the design of our consumer facing products. --></h1>
+		<div>
+			<article class="speaking">
+				<h2>Speaking</h2>
+				<ul>
+					<li><a href="https://www.youtube.com/watch?v=rcRAyi0RZsk">Codifying Design Process • Design Driven NYC</a></li>
+					<li><a href="https://vimeo.com/188842160">A Day In The Life • AIGA/NY</a></li>
+					<li><a href="https://www.meetup.com/Design-Research-NYC/events/236647535/">Future of Design Research Panel • Microsoft</a></li>
+					<li><a href="http://interactiondesign.sva.edu/">What Hiring Managers Want • SVA IxD</a></li>
+					<!-- <li><a href="https://flatironschool.com/">BuzzFeed Product Design • Flatiron School</a></li> -->
+				</ul>
+			</article>
+			<article class="writing">
+				<h2>Writing</h2>
+				<ul>
+					<li><a href="https://medium.com/buzzfeed-design/buzzfeed-product-design-roles-2-0-6fe445078a74">Introducing BuzzFeed's Design Process</a></li>
+					<li><a href="https://medium.com/buzzfeed-design/join-the-buzzfeed-product-design-team-433f9a5dc560">Join the BuzzFeed Product Design Team</a></li>
+					<li><a href="https://medium.com/@tomharman/join-me-for-buzzfeed-office-hours-35efb0db014a">Conducting Open Office Hours</a></li>
+					<li><a href="https://medium.com/@tomharman/evaluating-job-opportunities-54b008971983">Evaluating Job Opportunities</a></li>
+				</ul>
+			</article>
+			<article class="contacting">
+				<h2>Connecting</h2>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/tomharman">LinkedIn</a></li>	
+					<li><a href="http://twitter.com/tomharman">Twitter</a></li>
+					<li><a href="https://open.spotify.com/user/tomharman">Spotify</a></li>
+					<li>👋</li>
+				</ul>
+			</article>
+		</div>
+ 		<p class="previously">Last updated: May 2017. Previous versions of this site live <a href="http://harmantom.com/webarchive/v2/">here</a> &amp; <a href="http://harmantom.com/webarchive/v1/">here</a>.</p>
 	</body>
 </html>
