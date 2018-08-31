@@ -2,143 +2,84 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Tom Harman • Design Manager at BuzzFeed • Based in Brooklyn</title>
+		<title>Tom Harman • A design leader who cares about developing people, growing teams and launching human-centered products</title>
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,800,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700" rel="stylesheet">
 		<style type="text/css">
 
 		/* http://meyerweb.com/eric/tools/css/reset/     v2.0 | 20110126    License: none (public domain) */  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { 	margin: 0; 	padding: 0; 	border: 0; 	font-size: 100%; 	font: inherit; 	vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section { 	display: block; } body { 	line-height: 1; } ol, ul { 	list-style: none; } blockquote, q { 	quotes: none; } blockquote:before, blockquote:after, q:before, q:after { 	content: ''; 	content: none; } table { 	border-collapse: collapse; 	border-spacing: 0; }
 
 			body {
-				background: #f4f4f4;
-				font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
-				font-weight: 400;
-				color: #555;
-				padding: 1.5em;
-				letter-spacing: -.33pt;
+				font-family: 'Source Serif Pro', serif;
+				font-size: 1.1em;
+				line-height: 1.5;
+				color: #333;
 				margin: 0 auto;
-			}
-			a { color: #555;
-				text-decoration: none;
-				transition: .3s;
-				line-height: .7;
-			}
-	        a { 
-	        	border-bottom: 2px solid #ee3322;
-	        }
-	        a:hover {
-				border-bottom: 2px solid #FDBB1E;
-			}
-			.previously a:hover {
-				color: #666;
-				border-bottom: 2px solid #FDBB1E;
+				padding: 0;
+				background: #f7971e; /* fallback for old browsers */
+				background: -webkit-linear-gradient(to top, #f7971e, #ffd200); /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to top, #f7971e, #ffd200);
 			}
 			h1 {
-				font-weight: 900;
-				font-size: 2.5em;
-				line-height: 1.15;
-				display: inline-block;
-				margin: 0 0 1em 0;
-				
+				font-family: 'Work Sans', sans-serif;
+				padding: 1em 0 .5em 0;
 			}
-			h2 {
-				font-weight: 600;
+			h2, p { margin: 0 0 1.35em 0; }
+			h1 { font-weight: 900; font-size: 1.9em; line-height: 1.2; }
+			h3 { font-weight: 700; }
+			a { 
+				text-decoration: none;
+				color: #333; transition:
+				background-color 0.15s ease;
+				border-bottom: 1px solid #f7971e;
 			}
-			em {
-				color: #aaa;
+			a:hover {
+				background-color: #FFF200;
+				background-color: #ffd200;
+				border-bottom-color: #ffd200;
 			}
-			.previously, .previously a {
-				color: #ccc;
-				border-color: #ccc;
+			div { width: 100%; max-width: 50em; background: #fff; padding: 0;}
+			div article { padding: 0 1.5em; }
+			div p, div h2, div h3 {
+				max-width: 35em;
 			}
-			.previously {
-				clear: both;
-				font-weight: normal;
-				padding-top: 1em;
+			p.previously { color: #aaa; margin-top: 3em; margin-bottom: 0; padding-bottom: 3em;}
+			p.previously a { color: #aaa; border-bottom-color: #aaa; }
+			p.previously a:hover { background-color: #eee; color: #666;}
+
+			/* Mobile first queries */
+
+			/* Larger than phablet */
+			@media (min-width: 550px) {
+					h1 { padding: 1.75em 0 .5em 0; font-size: 2.1em; }
+					body { font-size: 1.2em; }
+					div article { padding: 0 3em; }
 			}
 
-			article{
-				font-weight: normal;
-				line-height: 1.65;
-				margin-bottom: 1em;
-			}
-/*
-			article ul li {
-				line-height: 3;
-			}*/
-			
-			div { clear: both; display: block; }
-
-
-			/* Tablets */
-			@media only screen and (min-width: 500px) {
-		        body {
-		        	padding: 2.5em;
-		        }
-		        h1 {
-		        	font-size: 3em;
-		        }
-			}
-
-		    /* Big Screens */
-		    @media only screen and (min-width: 1024px) {
-			    body {
-			        padding: 4em;
-			        max-width: 1150px;
-			    }
-			    h1 {
-			    	font-size: 4.5em;
-			    }
-		        article { float: left; width: 20%; font-size: 1.1em;}
-				article.speaking {width: 35%; padding-right: 5%; }
-				article.writing {width: 30%; padding-right: 5%; }
-				article.contacting {width: 20%;}
-				.previously { padding-top: 2.5em;}
-			}
-
-			@media only screen and (max-device-width: 414px) {
-				body { font-size: 1.5em; }
-				article { margin-bottom: 1.5em; }
-			}
-
-			@media only screen and (max-device-width: 375px) {
-				body { font-size: 1em; }
-				h1 { font-size: 4.5em; }
-				article { margin-bottom: 2.5em; }
+			/* Larger than desktop */
+			@media (min-width: 960px) {
+				h1 { padding: 2em 0 .5em 0; font-size: 2.6em; }
+				body { font-size: 1.3em; }
+				div article { padding: 0 4.5em; }
+				div { max-width: 52em; }
 			}
 
 		</style>
 	</head>
 	<body>
-		<h1>Hi, I'm Tom, a product designer &amp; people manager passionate about systems &amp; simplicity. <!-- I'm currently at BuzzFeed in NYC where I lead the design of our consumer facing products. --></h1>
 		<div>
-			<article class="speaking">
-				<h2>Speaking</h2>
-				<ul>
-					<li><a href="https://www.youtube.com/watch?v=rcRAyi0RZsk">Codifying Design Process • Design Driven NYC</a></li>
-					<li><a href="https://vimeo.com/188842160">A Day In The Life • AIGA/NY</a></li>
-					<li><a href="https://www.meetup.com/Design-Research-NYC/events/236647535/">Future of Design Research Panel • Microsoft</a></li>
-					<li><a href="http://interactiondesign.sva.edu/">What Hiring Managers Want • SVA IxD</a></li>
-					<!-- <li><a href="https://flatironschool.com/">BuzzFeed Product Design • Flatiron School</a></li> -->
-				</ul>
-			</article>
-			<article class="writing">
-				<h2>Writing</h2>
-				<ul>
-					<li><a href="https://medium.com/buzzfeed-design/buzzfeed-product-design-roles-2-0-6fe445078a74">Introducing BuzzFeed's Design Process</a></li>
-					<li><a href="https://medium.com/buzzfeed-design/join-the-buzzfeed-product-design-team-433f9a5dc560">Join the BuzzFeed Product Design Team</a></li>
-					<li><a href="https://medium.com/@tomharman/join-me-for-buzzfeed-office-hours-35efb0db014a">Conducting Open Office Hours</a></li>
-					<li><a href="https://medium.com/@tomharman/evaluating-job-opportunities-54b008971983">Evaluating Job Opportunities</a></li>
-				</ul>
-			</article>
-			<article class="contacting">
-				<h2>Elsewhere</h2>
-				<ul>
-					<li><a href="https://www.linkedin.com/in/tomharman">LinkedIn</a></li>	
-					<li><a href="http://twitter.com/tomharman">Twitter</a></li>
-					<li>👋</li>
-				</ul>
+			<article>
+				<h1>Hi, I’m Tom, a design leader who cares about developing people, growing teams and launching human-centered products.</h1>
+				<h2>Since 2005 I’ve worked with product startups, design studios and on in-house projects at Google, NYTimes and Adobe. Most recently I led the consumer-facing product design team at BuzzFeed. I'm now back in London after nine years in NYC. Fun fact, I once launched a <a href="http://www.zeldman.com/2013/05/30/coastermatics-tash-wong-and-tom-harman-on-the-big-web-show-episode-no-92/">company</a> (and briefly moved to Hawaii) while finishing up at <a href="http://interactiondesign.sva.edu/">grad school</a>. </h2>
+				<h3>Developing People</h3>
+				<p>I’ve managed product designers across a range of backgrounds and skill levels, from interns through to IC veterans. In addition to the 13 folks I managed directly throughout my time at BuzzFeed (plus 3 in a previous role) I’ve been actively involved in top product design <a href="https://www.30weeks.com/">mentorship</a> <a href="https://orbital.nyc/product-sessions/">programs</a> in NYC, created and led workshops for <a href="http://interactiondesign.sva.edu/">SVA MFA design</a> students, run <a href="https://medium.com/@tomharman/join-me-for-buzzfeed-office-hours-35efb0db014a">open office hours</a> and led <a href="https://larahogan.me/blog/manager-voltron/#develop-your-manager-crew">manager dens</a> at BuzzFeed.</p>
+				<h3>Growing Teams</h3>
+				<p>There were 20 people in the product design team at BuzzFeed. The four design managers shared responsibility for running and scaling the team, and collaborated on operational processes to help with that. Projects included: designing <a href="https://tech.buzzfeed.com/crafting-the-product-design-hiring-experience-part-one-65c924bc7a41">how we hire</a> and onboard new designers, evolving our <a href="https://medium.com/buzzfeed-design/product-design-roles-v3-c97a061a4b33">career ladder</a>, facilitating the creation of <a href="https://medium.com/buzzfeed-design/buzzfeeds-product-design-principles-e7d99b74c46e">design principles</a>, establishing our <a href="https://medium.com/buzzfeed-design/introducing-buzzfeeds-design-process-4fefbdcd83ea">design process</a> (and giving <a href="https://www.youtube.com/watch?v=rcRAyi0RZsk">talks</a> about it); and evolving our critique format and communication tools to best support and empower the team.</p>
+				<h3>Launching Human-Centered Products</h3>
+				<p>Whether starting from business needs, audience data or qualitative research, my focus is on identifying human problems, helping teams explore potential solutions and shipping beautifully crafted products. As part of BuzzFeed's consumer facing leadership team—alongside peers in directors of engineering, product and data—I oversaw product design for BuzzFeed.com, iOS and Android, Tasty and our CMS. Projects I helped launch include the <a href="https://www.youtube.com/watch?v=sbt3uxVMv4I">Tasty iOS app</a>, <a href="https://www.recode.net/2017/4/24/15379964/buzzfeed-commerce-shopify-partnership-affiliate-network-links">BuzzFeed Shopping</a> and the <a href="https://variety.com/2016/digital/news/buzzfeed-twitter-election-night-live-streaming-special-1201887851/">2016 election homepage</a> in addition to overhauls of the <a href="https://community.buzzfeed.com/">CMS</a> and <a href="https://www.buzzfeed.com/quizzes">core quiz taking experience</a>.</p>
+				<p>My favourite social network is <a href="https://www.strava.com/athletes/tomharman">Strava</a>, but I can also be found on <a href="http://twitter.com/tomharman">Twitter</a>.</p>
+				<p class="previously">Last updated: August 2018. Previous versions of this site: <a href="#">2017</a>, <a href="http://harmantom.com/webarchive/v2/">2013</a> &amp; <a href="http://harmantom.com/webarchive/v1/">2011</a>.</p>
 			</article>
 		</div>
- 		<p class="previously">Last updated: May 2017. Previous versions of this site live <a href="http://harmantom.com/webarchive/v2/">here</a> &amp; <a href="http://harmantom.com/webarchive/v1/">here</a>.</p>
 	</body>
 </html>
